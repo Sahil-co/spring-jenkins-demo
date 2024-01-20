@@ -5,7 +5,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                mvn clean and install
+                mvn clean package
             }
         }
     }
